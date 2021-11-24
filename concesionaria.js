@@ -1,7 +1,7 @@
 // módulo autos, se crear un objeto literal llamado concesionaria que contendrá todas las funcionalidades que el cliente solicita.
 //Por último, nuestro objeto literal debe tener un atributo llamado autos que contenga la lista de automóviles importada anteriormente.
 
-let autos = require('./concesionaria');
+let autos = require('./autos');
 let persona = require('./personas');
 const concesionaria = {
     persona: persona,
@@ -75,5 +75,16 @@ const concesionaria = {
 
 }
 
-    // return listaAutosCompra;
 
+ //console.log(autos);
+ //console.log(persona);
+
+ //console.log(autosQuePuedeCompra(persona));
+//console.log(concesionaria.buscarAuto("JK116"));
+//console.log(concesionaria.venderAuto('APL123'));
+//console.log(concesionaria.listaDeVentas());
+//console.log (concesionaria.puedeComprar(autos,persona));
+//console.log(concesionaria.autosQuePuedeComprar(persona));
+//console.log(concesionaria.autosParaLaVenta());
+//console.log(concesionaria.autosNuevos());
+ //console.log(concesionaria.totalDeVentas());
